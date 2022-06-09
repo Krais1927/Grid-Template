@@ -9,3 +9,5 @@
 - git reset --soft HEAD^
 - git checkout
 - git branch
+- git remote
+- git push
