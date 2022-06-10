@@ -51,8 +51,21 @@
     border-bottom-color: rgba($color-light, 0.20);;
     letter-spacing: 0.15em;
     font-size: 1.125rem;
+    transition: background-color 0.5s, border-color 0.5s;
+    
     &::placeholder{
       color: $color-gray;
+    }
+    
+    &:hover,
+    &:focus {
+      border-color: rgba($color-light, 0.15);
+      border-bottom-color: $color-light;
+      background-color: rgba($color-light, 0.15);
+
+      &::placeholder {
+        color: lighten($color-gray, 15%);
+      }
     }
   }
 }

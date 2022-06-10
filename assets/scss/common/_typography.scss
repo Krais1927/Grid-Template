@@ -9,9 +9,6 @@
 
 html {
   overflow-y: scroll;
-
-  letter-spacing: 0.1em;
-
   font-family: $font-main ;
   font-size: $font-size;
 }
@@ -77,4 +74,11 @@ h2 {
 }
 p{
   color:$color-gray;
+}
+h3 {
+  letter-spacing: 0.05em;
+
+  color: $color-gray;
+
+  font-size: 1.125rem;
 }
